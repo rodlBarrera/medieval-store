@@ -1,0 +1,37 @@
+main {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    align-items: center;
+    padding: 4em;
+}
+
+main h1 {
+    margin-bottom: .5em;
+}
+
+main p {
+    margin-bottom: 1em;
+}
+
+main img {
+    width: 20%;
+    margin: 3em;
+}
+
+.categoryBtns {
+    display: flex;
+    gap: 2.5em;
+}
+
+.categoryBtns button {
+    padding: .8em 1.5em;
+    border: none;
+    background-color: #2d2862;
+    color: #FFF;
+    border-radius: 5px;
+}
+
+main button:hover, main button:active {
+    background-color: #1d194e;
+}
